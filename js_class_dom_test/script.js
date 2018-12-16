@@ -48,7 +48,7 @@ function createNewUser(){
 
 var newUser = createNewUser();
 
-if (newUser.name === "Rafael" || newUser.name === "rafael" || newUser.name === "RAFAEL"){
+if (newUser.getName() === "Rafael" || newUser.getName() === "rafael" || newUser.getName() === "RAFAEL"){
 	document.querySelector("h2").innerHTML = "Voce criou este site!<br>Aqui estao os seus dados";
 	document.querySelector("body").style.backgroundColor = "green";
 }
