@@ -37,7 +37,7 @@ class user{
 function createNewUser(){
 	var name = prompt("Digite seu nome");
 	var age = prompt("Sua idade");
-	var city = prompt("Sua idade");
+	var city = prompt("Sua cidade");
 	var province = prompt("Seu estado");
 	var country = prompt("Seu país");
 	var phone = prompt("Seu número de contato");
