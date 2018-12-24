@@ -1,25 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import SearchBox from './SearchBox.js';
+import CardList from './CardList.js';
+import robots from './robots.js';
 
-class App extends Component {
+class App extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+      objList: robots,
+      searchField: ''
+    }
+  }
+
+  onSearchChange = (event) => {
+    this.setState({ searchField: event.target.value });
+
+  }
+
   render() {
+    const filteredElements = this.state.objList.filter( (string) => {
+      return string.name.toLowerCase().includes(this.state.searchField.toLowerCase());
+    });
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Mi da uma mamada to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="tc">
+        <h1 className="tc">Robofriends</h1>
+        <SearchBox eventFunc={this.onSearchChange}/>
+        <hr/>
+        <CardList arrayObjs={filteredElements}/>
       </div>
     );
   }
