@@ -7,6 +7,7 @@ class OptionsBar extends React.Component {
 		return (
 			<div id='sidebar'>
 				<ul>
+					<li>Inicio</li>
 					<li>Sobre mim</li>
 					<li>Projetos</li>
 					<li>Contato</li>
