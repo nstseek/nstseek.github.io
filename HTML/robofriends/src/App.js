@@ -25,7 +25,7 @@ class App extends React.Component {
 
     return (
       <div className="tc">
-        <h1 className="tc">Robofriends</h1>
+        <h1 className="f1">Robofriends</h1>
         <SearchBox eventFunc={this.onSearchChange}/>
         <hr/>
         <CardList arrayObjs={filteredElements}/>
