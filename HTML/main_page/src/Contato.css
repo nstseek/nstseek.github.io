@@ -1,0 +1,15 @@
+img.contato{
+    display: inline;
+    width: 64px;
+    height: 64px;
+    margin: 30px;
+}
+
+h1.contato{
+    padding: 10%;
+
+}
+
+h5.contato{
+    padding: 3%;
+}

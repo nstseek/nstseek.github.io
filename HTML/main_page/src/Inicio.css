@@ -1,0 +1,14 @@
+h1, h3{
+    text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin: 30px;
+}
