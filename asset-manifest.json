@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.ee074bbc.chunk.css",
-  "main.js": "/static/js/main.3a3d94be.chunk.js",
-  "main.js.map": "/static/js/main.3a3d94be.chunk.js.map",
+  "main.css": "/static/css/main.8241e59b.chunk.css",
+  "main.js": "/static/js/main.117d2235.chunk.js",
+  "main.js.map": "/static/js/main.117d2235.chunk.js.map",
   "static/js/1.c47e67fe.chunk.js": "/static/js/1.c47e67fe.chunk.js",
   "static/js/1.c47e67fe.chunk.js.map": "/static/js/1.c47e67fe.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -11,8 +11,8 @@
   "static/media/lattes.png": "/static/media/lattes.8c337896.png",
   "static/media/index.css": "/static/media/background.5a6a8ac1.JPG",
   "static/media/insta.png": "/static/media/insta.e4e84aa8.png",
-  "static/css/main.ee074bbc.chunk.css.map": "/static/css/main.ee074bbc.chunk.css.map",
+  "static/css/main.8241e59b.chunk.css.map": "/static/css/main.8241e59b.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.8130f1d38a4da9d440347dc4978d465b.js": "/precache-manifest.8130f1d38a4da9d440347dc4978d465b.js",
+  "precache-manifest.089e7d96645d8504e0a38dcbc4d855b3.js": "/precache-manifest.089e7d96645d8504e0a38dcbc4d855b3.js",
   "service-worker.js": "/service-worker.js"
 }
