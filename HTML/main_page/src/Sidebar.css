@@ -13,9 +13,9 @@ ul{
 	align-self: center;
 	justify-self: center;
 	padding: 0;
-	line-height: 6vh;
+	line-height: 60px;
 	font-family: "Segoe UI";
-	font-size: 1.2em;
+	font-size: 18px;
 }
 
 li:hover{

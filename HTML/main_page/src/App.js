@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <div id="container" className="animated fadeIn">
         <div id="info">
-          <h6>Site em construção</h6>
+          <h3 id="infoh3">Site em construção</h3>
         </div>
         <div className="main">
       	<Sidebar storeMethod={this.onSidebarClick}/>

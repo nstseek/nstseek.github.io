@@ -10,8 +10,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./img/background.JPG');
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   color: white;
+}
+
+h1{
+  font-size: 5vmin;
+}
+
+h3{
+  font-size: 3.5vmin;
 }
 
 code {

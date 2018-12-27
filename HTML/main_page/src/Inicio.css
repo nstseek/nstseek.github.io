@@ -10,5 +10,6 @@ div{
 }
 
 img{
-    margin: 30px;
+    margin: 0;
+    width: 30%;
 }
