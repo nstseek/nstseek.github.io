@@ -10,7 +10,6 @@
 #infoh3{	
 	color: gray;
 	opacity: 0.7;
-	font-size: 12px;
 }
 
 .main{
@@ -19,5 +18,4 @@
 	grid-template-columns: minmax(130px, 1fr) 4fr;
 	width: 100vw;
 	height: 100vh;
-	text-shadow: 3px 3px 5px black;
 }

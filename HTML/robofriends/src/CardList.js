@@ -9,7 +9,7 @@ class CardList extends React.Component{
 
     render(){
         const cardArray = this.props.arrayObjs.map(this.createCard);
-        
+                
         return (<div>
                     {cardArray}
                 </div>);

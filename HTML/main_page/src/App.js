@@ -24,10 +24,10 @@ class App extends React.Component {
         <div id="info">
           <h3 id="infoh3">Site em construção</h3>
         </div>
-        <div className="main">
-      	<Sidebar storeMethod={this.onSidebarClick}/>
-        <Viewer itemToDisplay={this.state.componentToBeDisplayed}/>
-        </div>
+        
+      	  <Sidebar storeMethod={this.onSidebarClick}/>
+          <Viewer itemToDisplay={this.state.componentToBeDisplayed}/>
+        
       </div>
       
     );
@@ -39,28 +39,24 @@ class App extends React.Component {
       return;
     }
     if (clickedItem === "Início"){
-      console.log("clico em inicio");
       this.setState( { 
         actualItem: "Início",
         componentToBeDisplayed: <Inicio/> 
       } );
     }
     else if (clickedItem === "Sobre mim"){
-      console.log("clico em sobre mim");
       this.setState( { 
         actualItem: "Sobre mim",
         componentToBeDisplayed: <Sobre/> 
       } );
     }
     else if (clickedItem === "Projetos"){
-      console.log("clico em projetos");
       this.setState( { 
         actualItem: "Projetos",
         componentToBeDisplayed: <Projetos/> 
       } );
     }
     else if (clickedItem === "Contato"){
-      console.log("clico em contato");
       this.setState( { 
         actualItem: "Contato",
         componentToBeDisplayed: <Contato/> 

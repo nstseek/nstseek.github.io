@@ -1,4 +1,28 @@
 p{
     padding: 10%;
-    font-size: 16px;
+    padding-top: 3%;
+}
+
+.Sobre{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#sobreTitle{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sobreContent{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow-y: auto;    
 }
