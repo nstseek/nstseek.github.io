@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/18203013/Software/atom-1.30.0-amd64/atom
+Name=Atom
+Comment=Execute Atom text editor
+Icon=/home/18203013/Desktop/.atom.png

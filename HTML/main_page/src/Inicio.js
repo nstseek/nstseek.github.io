@@ -11,7 +11,7 @@ class Inicio extends React.Component{
                 <img id="profilepic" alt="Foto de perfil de Rafael Lopes Schneider" src={me}></img>
               </div>
               <h1>Rafael Lopes Schneider</h1>
-              <h3 id="inicioh3">Estudante de Engenharia de Computacao</h3>
+              <h3 id="inicioh3">Estudante de Engenharia de Computacao da PUC-RS</h3>
           </div>  
         );
     }
