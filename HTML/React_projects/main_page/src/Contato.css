@@ -1,0 +1,34 @@
+img.contato{
+    display: inline;
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+}
+
+#contatoContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#contatoTitle{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contatoContent{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow-y: auto;  
+}
+
+h3.contato{
+    padding: 0;
+}

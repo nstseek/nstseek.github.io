@@ -1,0 +1,31 @@
+#projetosContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#projetosTitle{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#projetosContent{
+    padding: 3%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;    
+}
+
+h3{
+    padding: 10%;
+    line-height: 200%;
+}
