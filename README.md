@@ -6,3 +6,5 @@ Este repositorio contem meu site e meus projetos para exposicao, sao varios proj
 Os projetos de site podem ser encontrados na pasta HTML.
 
 Os projetos em C se encontram na pasta C, projetos de Swift na pasta Swift e assim em diante.
+
+Posto projetos novos ou atualizacoes quase todos os dias.
