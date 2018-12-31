@@ -31,34 +31,47 @@ class App extends React.Component {
     );
   }
 
+  sidebarFX = (ms, title, element) => {
+    let promise = new Promise( (resolve, reject) => {
+      setTimeout(resolve, ms);
+    });
+
+    promise.then(() => {
+      this.setState( { 
+        actualItem: title,
+        componentToBeDisplayed: element
+      } );
+      document.querySelector(".viewer").style.opacity = 1;
+    });
+  } 
+
   onSidebarClick = (event) => {
     let clickedItem = event.target.innerHTML
+    
+    let delay = 500;
+
     if ( clickedItem === this.state.actualItem ) {
       return;
     }
+
     if (clickedItem === "Início"){
-      this.setState( { 
-        actualItem: "Início",
-        componentToBeDisplayed: <Inicio/> 
-      } );
+      document.querySelector(".viewer").style.opacity = 0;
+      this.sidebarFX(delay, "Início", <Inicio/>);
     }
+
     else if (clickedItem === "Sobre mim"){
-      this.setState( { 
-        actualItem: "Sobre mim",
-        componentToBeDisplayed: <Sobre/> 
-      } );
+      document.querySelector(".viewer").style.opacity = 0;
+      this.sidebarFX(delay, "Sobre mim", <Sobre/>);
     }
+
     else if (clickedItem === "Projetos"){
-      this.setState( { 
-        actualItem: "Projetos",
-        componentToBeDisplayed: <Projetos/> 
-      } );
+      document.querySelector(".viewer").style.opacity = 0;
+      this.sidebarFX(delay, "Projetos", <Projetos/>);
     }
+    
     else if (clickedItem === "Contato"){
-      this.setState( { 
-        actualItem: "Contato",
-        componentToBeDisplayed: <Contato/> 
-      } );
+      document.querySelector(".viewer").style.opacity = 0;
+      this.sidebarFX(delay, "Contato", <Contato/>);
     }
     
   }
