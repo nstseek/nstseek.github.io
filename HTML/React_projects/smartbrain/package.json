@@ -2,6 +2,7 @@
   "name": "smartbrain",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nstseek.github.io/Pages/smartbrain",
   "dependencies": {
     "clarifai": "^2.9.0",
     "react": "^16.7.0",
