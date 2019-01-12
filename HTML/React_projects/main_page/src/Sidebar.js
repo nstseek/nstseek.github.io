@@ -10,6 +10,7 @@ class Sidebar extends React.Component {
 					<li className="listitem" onClick={this.props.storeMethod}>Início</li>
 					<li className="listitem" onClick={this.props.storeMethod}>Sobre mim</li>
 					<li className="listitem" onClick={this.props.storeMethod}>Projetos</li>
+					<li className="listitem" onClick={this.props.storeMethod}>Paginas</li>
 					<li className="listitem" onClick={this.props.storeMethod}>Contato</li>
 				</ul>
 			</div>

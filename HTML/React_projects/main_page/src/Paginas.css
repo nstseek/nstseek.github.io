@@ -1,0 +1,40 @@
+.Paginas{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#paginasTitle{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#paginasContent{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow-y: auto;    
+}
+
+h3{
+    margin: 5px;
+    padding: 5px;
+}
+
+h5{
+    margin: 10px;
+}
+
+a{
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
