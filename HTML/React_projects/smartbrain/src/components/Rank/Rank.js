@@ -6,10 +6,10 @@ class Rank extends React.Component{
         return (
             <div>
                 <div className="white f3">
-                    {'Your current rank is ...'}
+                    {'Your total entries are ...'}
                 </div>
                 <div className="white f1">
-                    {'#1'}
+                    {`#${this.props.entries}`}
                 </div>
             </div>
         );

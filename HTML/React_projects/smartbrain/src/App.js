@@ -133,8 +133,10 @@ class App extends Component {
       input: 'https://images-cdn.9gag.com/photo/aAd8qZ2_700b.jpg',
       imageURL: 'https://images-cdn.9gag.com/photo/aAd8qZ2_700b.jpg',
       box: {},
-      route: 'signin'
-    }
+      route: 'signin',
+      id: '',
+      entries: ''
+    };
   }
 
   calculateFaceLocation = (coordinates) => {
@@ -150,7 +152,6 @@ class App extends Component {
   }
 
   displayFaceBox = (boxcoord) => {
-    console.log(boxcoord);
     this.setState( {box: boxcoord} );
   }
 
@@ -159,6 +160,17 @@ class App extends Component {
   }
 
   onDetectClick = () => {
+    fetch("http://localhost:3001/image", {
+      method: "PUT",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({
+        id: this.state.id
+      })
+    }).then( res => {
+      fetch(`http://localhost:3001/profile/${this.state.id}`)
+        .then(res => res.json())
+        .then(res => this.setState({entries: res}));
+    });
     this.setState( {imageURL: this.state.input} );
     app.models.predict(Clarifai.FACE_DETECT_MODEL, this.state.input).then(
       (response) => {
@@ -170,8 +182,11 @@ class App extends Component {
     );
   }
 
-  onSignIn = () => {
+  onSignInApp = () => {
     this.setState( {route: 'home'} );
+    fetch(`http://localhost:3001/profile/${this.state.id}`)
+      .then(res => res.json())
+      .then(res => this.setState({entries: res}));
   }
 
   onSignOut = () => {
@@ -182,6 +197,12 @@ class App extends Component {
     this.setState( {route: 'register' } );
   }
 
+  setID = (id) => {
+    this.setState({
+      id: id
+    });
+  }
+
   render() {
     const fillBody = () => {
       if (this.state.route === 'signin'){
@@ -189,7 +210,7 @@ class App extends Component {
           <div>
             <Navigation value={""} registerFunc={this.onRegisterClick} signOutFunc={this.onSignOut}/>
             <Logo/>
-            <SignIn registerClick={this.onRegisterClick} signInFunc={this.onSignIn}/>
+            <SignIn setID={this.setID} registerClick={this.onRegisterClick} signInFunc={this.onSignInApp}/>
           </div>          
         );
       }
@@ -198,7 +219,7 @@ class App extends Component {
           <div>
               <Navigation value={"Sign out"} registerFunc={this.onRegisterClick} signOutFunc={this.onSignOut}/>
               <Logo/>
-              <Rank/>
+              <Rank entries={this.state.entries}/>
               <ImageLinkForm changeFunc={this.onInputChange} clickFunc={this.onDetectClick}/>
               <FaceRecognition boxCoord={this.state.box} imgURL={this.state.imageURL}/>
             </div>
@@ -209,7 +230,7 @@ class App extends Component {
           <div>
             <Navigation value={""} registerFunc={this.onRegisterClick} signOutFunc={this.onSignOut}/>
             <Logo/>
-            <Register/>
+            <Register home={this.onSignOut}/>
           </div>          
         );
       }
