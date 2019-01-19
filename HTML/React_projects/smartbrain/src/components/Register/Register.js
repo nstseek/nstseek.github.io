@@ -30,7 +30,7 @@ class Register extends React.Component{
     }
 
     onRegister = () => {
-        fetch('http://localhost:3001/register', {
+        fetch('https://secret-beach-89404.herokuapp.com/register', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

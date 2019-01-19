@@ -130,8 +130,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      input: 'https://images-cdn.9gag.com/photo/aAd8qZ2_700b.jpg',
-      imageURL: 'https://images-cdn.9gag.com/photo/aAd8qZ2_700b.jpg',
+      input: 'https://cdn.lifehack.org/wp-content/uploads/2015/01/alpha-woman-1024x768.jpeg',
+      imageURL: 'https://cdn.lifehack.org/wp-content/uploads/2015/01/alpha-woman-1024x768.jpeg',
       box: {},
       route: 'signin',
       id: '',
@@ -160,14 +160,14 @@ class App extends Component {
   }
 
   onDetectClick = () => {
-    fetch("http://localhost:3001/image", {
+    fetch("https://secret-beach-89404.herokuapp.com/image", {
       method: "PUT",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({
         id: this.state.id
       })
     }).then( res => {
-      fetch(`http://localhost:3001/profile/${this.state.id}`)
+      fetch(`https://secret-beach-89404.herokuapp.com/profile/${this.state.id}`)
         .then(res => res.json())
         .then(res => this.setState({entries: res}));
     });
@@ -184,7 +184,7 @@ class App extends Component {
 
   onSignInApp = () => {
     this.setState( {route: 'home'} );
-    fetch(`http://localhost:3001/profile/${this.state.id}`)
+    fetch(`https://secret-beach-89404.herokuapp.com/profile/${this.state.id}`)
       .then(res => res.json())
       .then(res => this.setState({entries: res}));
   }
