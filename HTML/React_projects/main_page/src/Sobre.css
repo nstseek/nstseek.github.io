@@ -1,6 +1,7 @@
-p{
-    padding: 10%;
-    padding-top: 3%;
+.sobreParagraph{
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 .Sobre{
@@ -19,6 +20,7 @@ p{
 }
 
 #sobreContent{
+    padding: 30px;
     width: 100%;
     height: 70%;
     text-align: center;

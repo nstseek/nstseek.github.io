@@ -53,9 +53,9 @@ class Projetos extends React.Component{
         return (
             <div id="projetosContainer">
                 <div id="projetosTitle">
-                    <h1>Meus projetos no GitHub</h1>
-                    <h6>(Leia o README.md para mais detalhes)</h6>
-                    <h6>(Você também pode encontrar meus projetos em <a target="_blank" rel="noopener noreferrer" href="https://github.com/nstseek/nstseek.github.io)">https://github.com/nstseek/nstseek.github.io</a>)</h6>
+                    <h1>Meu repositório no GitHub</h1>
+                    <h6>Leia o <a class="linkGit" target="_blank" rel="noopener noreferrer" href="https://github.com/nstseek/nstseek.github.io/blob/master/README.md">README.md</a> para mais detalhes</h6>
+                    <h6>(Você também pode visualizar meu repositório em <a class="linkGit" target="_blank" rel="noopener noreferrer" href="https://github.com/nstseek/nstseek.github.io">https://github.com/nstseek/nstseek.github.io</a>)</h6>
                 </div>
                 <div id="projetosContent">
                     <ItemList clickFunc={this.onItemClick} dir={this.state.dirList}/>    
