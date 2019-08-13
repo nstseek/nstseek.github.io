@@ -65,9 +65,9 @@ class App extends React.Component {
       this.sidebarFX(delay, "Sobre mim", <Sobre/>);
     }
 
-    else if (clickedItem === "Projetos"){
+    else if (clickedItem === "Repositório"){
       document.querySelector(".viewer").style.opacity = 0;
-      this.sidebarFX(delay, "Projetos", <Projetos/>);
+      this.sidebarFX(delay, "Repositório", <Projetos/>);
     }
     
     else if (clickedItem === "Contato"){
@@ -75,9 +75,9 @@ class App extends React.Component {
       this.sidebarFX(delay, "Contato", <Contato/>);
     }
 
-    else if (clickedItem === "Paginas"){
+    else if (clickedItem === "Páginas"){
       document.querySelector(".viewer").style.opacity = 0;
-      this.sidebarFX(delay, "Paginas", <Paginas/>);
+      this.sidebarFX(delay, "Páginas", <Paginas/>);
     }
     
   }
