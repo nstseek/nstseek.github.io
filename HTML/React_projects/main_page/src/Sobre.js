@@ -11,9 +11,9 @@ class Sobre extends React.Component {
         <div id="sobreContent">
           <p class="sobreParagraph">
             Trabalho atualmente como desenvolvedor web full stack, utilizando
-            Angular, Oracle Database, Java, RestAPIs e algumas outras coisas
-            através de uma metodologia ágil, o Scrum, metodologia a qual possuo
-            um certificado, com entregas contínuas ao cliente e reuniões
+            Angular, Redux, Oracle Database, Java, RestAPIs e algumas outras
+            coisas através de uma metodologia ágil, o Scrum, metodologia a qual
+            possuo um certificado, com entregas contínuas ao cliente e reuniões
             frequentes entre o time.
           </p>
           <p class="sobreParagraph">
