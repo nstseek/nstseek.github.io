@@ -1,19 +1,27 @@
-h1, h3{
-    text-align: center;
+h1,
+h3 {
+  text-align: center;
+  width: 700px;
 }
 
-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+hr {
+  width: 80%;
+  border: 0;
+  border-top: 2px solid white;
 }
 
-img{
-    margin: 0;
-    width: 30%;
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#inicioh3{
-    padding: 1%;
+img {
+  margin: 0;
+  width: 30%;
+}
+
+#inicioh3 {
+  padding: 1%;
 }

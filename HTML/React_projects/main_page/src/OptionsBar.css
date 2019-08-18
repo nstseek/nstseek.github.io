@@ -1,29 +1,29 @@
-li{
-	text-decoration: none;
-	list-style: none;
-	text-align: center;
-	width: 100%;
-	color: white;
+li {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  color: white;
 }
 
-ul{
-	width: 100%;
-	align-self: center;
-	justify-self: center;
-	padding: 0;
-	line-height: 6vh;
-	font-family: "Segoe UI";
+ul {
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  padding: 0;
+  line-height: 6vh;
+  font-family: "Segoe UI";
 }
 
-li:hover{
-	background-color: black;
-	color: white;
-	transition: all 0.5s;
+li:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
 }
 
-#sidebar{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	background-color: rgba(0, 0, 0, 0.3);
+#sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background-color: rgba(0, 0, 0, 0.3);
 }
