@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "758cbbe2665ae92cfcdc9371d51754d7",
-    "url": "/static/media/lattespage.758cbbe2.png"
+    "revision": "8c3378965e48acaf628456e9b06a2f8b",
+    "url": "/static/media/lattes.8c337896.png"
   },
   {
-    "revision": "f9d8fe73fb167734c1e9",
-    "url": "/static/css/main.528246e8.chunk.css"
+    "revision": "882afa8f924cb9879c28",
+    "url": "/static/css/main.8415ba2d.chunk.css"
   },
   {
-    "revision": "b516251d6b6d6e4ce077",
-    "url": "/static/js/1.b516251d.chunk.js"
+    "revision": "1e9903ae00222585d8df",
+    "url": "/static/js/1.1e9903ae.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/static/media/linkedinpage.b4f518d7.png"
   },
   {
-    "revision": "f9d8fe73fb167734c1e9",
-    "url": "/static/js/main.f9d8fe73.chunk.js"
+    "revision": "758cbbe2665ae92cfcdc9371d51754d7",
+    "url": "/static/media/lattespage.758cbbe2.png"
   },
   {
-    "revision": "8c3378965e48acaf628456e9b06a2f8b",
-    "url": "/static/media/lattes.8c337896.png"
+    "revision": "882afa8f924cb9879c28",
+    "url": "/static/js/main.882afa8f.chunk.js"
   },
   {
     "revision": "d64d5e3afc522b3e6bfae1e629e1e570",
@@ -100,11 +100,15 @@ self.__precacheManifest = [
     "url": "/static/media/jsprompttest.a6c23da9.png"
   },
   {
+    "revision": "6b7e8ed0185a5398c31bc5d23d3647d3",
+    "url": "/static/media/hackatona_2019.6b7e8ed0.png"
+  },
+  {
     "revision": "270473211febf3b87b72fb66fb306db9",
     "url": "/static/media/background.27047321.JPG"
   },
   {
-    "revision": "a4113e0f0d2a8276d3da3b83091f96ec",
+    "revision": "002ce9181fc7d36fd6771c3f7420bdab",
     "url": "/index.html"
   }
 ];
