@@ -49,7 +49,7 @@ class Paginas extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://nstseek.github.io/HTML/background_generator/"
+                href="https://nstseek.github.io/Pages/background_generator/"
               >
                 <div className="cardContainer">
                   <img
@@ -63,7 +63,7 @@ class Paginas extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://nstseek.github.io/HTML/layout_master/
+                href="https://nstseek.github.io/Pages/layout_master/
 "
               >
                 <div className="cardContainer">
@@ -78,7 +78,7 @@ class Paginas extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://nstseek.github.io/HTML/startup_grid/"
+                href="https://nstseek.github.io/Pages/startup_grid/"
               >
                 <div className="cardContainer">
                   <img
@@ -95,7 +95,7 @@ class Paginas extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://nstseek.github.io/HTML/transitions_at_the_same_time/"
+                href="https://nstseek.github.io/Pages/transitions_at_the_same_time/"
               >
                 <div className="cardContainer">
                   <img
@@ -109,7 +109,7 @@ class Paginas extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://nstseek.github.io/HTML/transitions_one_after_another/"
+                href="https://nstseek.github.io/Pages/transitions_one_after_another/"
               >
                 <div className="cardContainer">
                   <img
@@ -123,7 +123,7 @@ class Paginas extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://nstseek.github.io/HTML/js_class_dom_test_input/
+                href="https://nstseek.github.io/Pages/js_class_dom_test_input/
 "
               >
                 <div className="cardContainer">
@@ -138,7 +138,7 @@ class Paginas extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://nstseek.github.io/HTML/js_class_dom_test_prompt/
+                href="https://nstseek.github.io/Pages/js_class_dom_test_prompt/
 "
               >
                 <div className="cardContainer">
