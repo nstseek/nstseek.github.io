@@ -1,11 +1,11 @@
 import React from "react";
-import Sidebar from "./components/sidebar/Sidebar.js";
-import Viewer from "./containers/viewer/Viewer.js";
-import Inicio from "./components/inicio/Inicio.js";
-import Sobre from "./components/sobre/Sobre.js";
-import Projetos from "./components/projetos/Projetos.js";
-import Contato from "./components/contato/Contato.js";
-import Paginas from "./components/paginas/Paginas.js";
+import Sidebar from "./components/sidebar/Sidebar";
+import Viewer from "./containers/viewer/Viewer";
+import Inicio from "./components/inicio/Inicio";
+import Sobre from "./components/sobre/Sobre";
+import Projetos from "./components/projetos/Projetos";
+import Contato from "./components/contato/Contato";
+import Paginas from "./components/paginas/Paginas";
 import "./App.css";
 import "./animate.css";
 
