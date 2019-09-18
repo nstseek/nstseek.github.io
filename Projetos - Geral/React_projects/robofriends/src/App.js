@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import SearchBox from './SearchBox.js';
-import CardList from './CardList.js';
-import robots from './robots.js';
+import SearchBox from './SearchBox.js.js';
+import CardList from './CardList.js.js';
+import robots from './robots.js.js';
 
 class App extends React.Component {
   constructor(){

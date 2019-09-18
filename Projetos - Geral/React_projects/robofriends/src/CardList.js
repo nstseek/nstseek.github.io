@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card.js';
+import Card from './Card.js.js';
 
 class CardList extends React.Component{
     
