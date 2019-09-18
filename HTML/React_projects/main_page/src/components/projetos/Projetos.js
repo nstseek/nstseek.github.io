@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projetos.css";
-import ItemList from "./ItemList.js";
+import ItemList from "../item-list/ItemList.js";
 
 class Projetos extends React.Component {
   constructor() {

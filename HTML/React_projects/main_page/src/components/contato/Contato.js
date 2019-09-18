@@ -1,19 +1,19 @@
 import React from "react";
 import "./Contato.css";
-import face from "./img/facebook.png";
-import faceicon from "./img/face.png";
-import insta from "./img/instagram.png";
-import instaicon from "./img/insta.png";
-import git from "./img/githubpage.png";
-import giticon from "./img/git2.png";
-import stack from "./img/stackpage.png";
-import stackicon from "./img/stack2.png";
-import linkedin from "./img/linkedinpage.png";
-import linkedinicon from "./img/linkedin.png";
-import lattes from "./img/lattespage.png";
-import lattesicon from "./img/lattes.png";
-import gmail from "./img/email.png";
-import gmailicon from "./img/gmail2.png";
+import face from "../../img/facebook.png";
+import faceicon from "../../img/face.png";
+import insta from "../../img/instagram.png";
+import instaicon from "../../img/insta.png";
+import git from "../../img/githubpage.png";
+import giticon from "../../img/git2.png";
+import stack from "../../img/stackpage.png";
+import stackicon from "../../img/stack2.png";
+import linkedin from "../../img/linkedinpage.png";
+import linkedinicon from "../../img/linkedin.png";
+import lattes from "../../img/lattespage.png";
+import lattesicon from "../../img/lattes.png";
+import gmail from "../../img/email.png";
+import gmailicon from "../../img/gmail2.png";
 
 class Contato extends React.Component {
   render() {

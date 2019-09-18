@@ -1,7 +1,7 @@
 import React from "react";
 import "./Item.css";
-import file from "./img/file.png";
-import folder from "./img/folder2.png";
+import file from "../../img/file.png";
+import folder from "../../img/folder2.png";
 
 class Item extends React.Component {
   itemClicked = () => {

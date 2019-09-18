@@ -1,13 +1,13 @@
 import React from "react";
-import Robofriends from "./img/robofriends.png";
-import Smartbrain from "./img/smartbrain.png";
-import Backgroundgenerator from "./img/backgroundgenerator.png";
-import Layoutmaster from "./img/layoutmaster.png";
-import Startupgrid from "./img/startupgrid.png";
-import Transitions1 from "./img/transitions1.png";
-import Transitions2 from "./img/transitions2.png";
-import Jsinputtest from "./img/jsinputtest.png";
-import Jsprompttest from "./img/jsprompttest.png";
+import Robofriends from "../../img/robofriends.png";
+import Smartbrain from "../../img/smartbrain.png";
+import Backgroundgenerator from "../../img/backgroundgenerator.png";
+import Layoutmaster from "../../img/layoutmaster.png";
+import Startupgrid from "../../img/startupgrid.png";
+import Transitions1 from "../../img/transitions1.png";
+import Transitions2 from "../../img/transitions2.png";
+import Jsinputtest from "../../img/jsinputtest.png";
+import Jsprompttest from "../../img/jsprompttest.png";
 import "./Paginas.css";
 
 class Paginas extends React.Component {
