@@ -9,6 +9,7 @@ import Transitions2 from '../../img/transitions2.png';
 import Jsinputtest from '../../img/jsinputtest.png';
 import Jsprompttest from '../../img/jsprompttest.png';
 import Hackatona2019PUCRS from '../../img/hackatona_2019.png';
+import ReduxThunk from '../../img/redux-thunk.png';
 import './Paginas.css';
 
 class Paginas extends React.Component {
@@ -23,13 +24,23 @@ class Paginas extends React.Component {
                     <p>
                         <h5>Páginas principais (mais elaboradas)</h5>
                         <div className='scrollView'>
-                            <a target='_blank' rel='noopener noreferrer' href='https://nstseek.github.io/Pages/webapp-hackatona-2019/'>
+                            <a
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                href='https://nstseek.github.io/Pages/redux-thunk/'
+                            >
                                 <div className='cardContainer'>
-                                    <img
-                                        src={Hackatona2019PUCRS}
-                                        alt='Hackatona 2019 PUCRS'
-                                        className='siteImg'
-                                    />
+                                    <img src={ReduxThunk} alt='React with Redux Thunk' className='siteImg' />
+                                    <span>React with Redux Thunk</span>
+                                </div>
+                            </a>
+                            <a
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                href='https://nstseek.github.io/Pages/webapp-hackatona-2019/'
+                            >
+                                <div className='cardContainer'>
+                                    <img src={Hackatona2019PUCRS} alt='Hackatona 2019 PUCRS' className='siteImg' />
                                     <span>Hackatona 2019 PUCRS</span>
                                 </div>
                             </a>
