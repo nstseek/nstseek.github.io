@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.64fc02b3.chunk.css",
-    "main.js": "/static/js/main.8ffb8bb8.chunk.js",
-    "main.js.map": "/static/js/main.8ffb8bb8.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.b249e9f6.js",
-    "runtime~main.js.map": "/static/js/runtime~main.b249e9f6.js.map",
-    "static/js/2.5dc9f9d2.chunk.js": "/static/js/2.5dc9f9d2.chunk.js",
-    "static/js/2.5dc9f9d2.chunk.js.map": "/static/js/2.5dc9f9d2.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.9175d28232e3dafac573c100b67522cf.js": "/precache-manifest.9175d28232e3dafac573c100b67522cf.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.64fc02b3.chunk.css.map": "/static/css/main.64fc02b3.chunk.css.map",
-    "static/media/Logo.png": "/static/media/Logo.f937cbfa.png"
+    "main.css": "/Pages/webapp-hackatona-2019/static/css/main.64fc02b3.chunk.css",
+    "main.js": "/Pages/webapp-hackatona-2019/static/js/main.fac22b29.chunk.js",
+    "main.js.map": "/Pages/webapp-hackatona-2019/static/js/main.fac22b29.chunk.js.map",
+    "runtime~main.js": "/Pages/webapp-hackatona-2019/static/js/runtime~main.1f780fb7.js",
+    "runtime~main.js.map": "/Pages/webapp-hackatona-2019/static/js/runtime~main.1f780fb7.js.map",
+    "static/js/2.5dc9f9d2.chunk.js": "/Pages/webapp-hackatona-2019/static/js/2.5dc9f9d2.chunk.js",
+    "static/js/2.5dc9f9d2.chunk.js.map": "/Pages/webapp-hackatona-2019/static/js/2.5dc9f9d2.chunk.js.map",
+    "index.html": "/Pages/webapp-hackatona-2019/index.html",
+    "precache-manifest.f63b60e913e6a24429f233acf41a5481.js": "/Pages/webapp-hackatona-2019/precache-manifest.f63b60e913e6a24429f233acf41a5481.js",
+    "service-worker.js": "/Pages/webapp-hackatona-2019/service-worker.js",
+    "static/css/main.64fc02b3.chunk.css.map": "/Pages/webapp-hackatona-2019/static/css/main.64fc02b3.chunk.css.map",
+    "static/media/Logo.png": "/Pages/webapp-hackatona-2019/static/media/Logo.f937cbfa.png"
   }
 }
