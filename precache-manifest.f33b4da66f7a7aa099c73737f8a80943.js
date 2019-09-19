@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/lattes.8c337896.png"
   },
   {
-    "revision": "882afa8f924cb9879c28",
-    "url": "/static/css/main.8415ba2d.chunk.css"
+    "revision": "9dac336ccce3279d2cb0",
+    "url": "/static/css/main.596f9b41.chunk.css"
   },
   {
-    "revision": "1e9903ae00222585d8df",
-    "url": "/static/js/1.1e9903ae.chunk.js"
+    "revision": "21e43bcc8ea7bb77b333",
+    "url": "/static/js/1.21e43bcc.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/lattespage.758cbbe2.png"
   },
   {
-    "revision": "882afa8f924cb9879c28",
-    "url": "/static/js/main.882afa8f.chunk.js"
+    "revision": "9dac336ccce3279d2cb0",
+    "url": "/static/js/main.9dac336c.chunk.js"
   },
   {
     "revision": "d64d5e3afc522b3e6bfae1e629e1e570",
@@ -104,11 +104,15 @@ self.__precacheManifest = [
     "url": "/static/media/hackatona_2019.6b7e8ed0.png"
   },
   {
+    "revision": "ca1b3d0bccb0e11d1f11687c8641d0dd",
+    "url": "/static/media/redux-thunk.ca1b3d0b.png"
+  },
+  {
     "revision": "270473211febf3b87b72fb66fb306db9",
     "url": "/static/media/background.27047321.JPG"
   },
   {
-    "revision": "002ce9181fc7d36fd6771c3f7420bdab",
+    "revision": "332e6b607f2fc389f0588fb98098573c",
     "url": "/index.html"
   }
 ];
