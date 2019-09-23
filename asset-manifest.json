@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.596f9b41.chunk.css",
-  "main.js": "/static/js/main.9dac336c.chunk.js",
-  "main.js.map": "/static/js/main.9dac336c.chunk.js.map",
+  "main.css": "/static/css/main.bd0fb1b0.chunk.css",
+  "main.js": "/static/js/main.4a1c2c0a.chunk.js",
+  "main.js.map": "/static/js/main.4a1c2c0a.chunk.js.map",
   "static/js/1.21e43bcc.chunk.js": "/static/js/1.21e43bcc.chunk.js",
   "static/js/1.21e43bcc.chunk.js.map": "/static/js/1.21e43bcc.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -30,8 +30,8 @@
   "static/media/hackatona_2019.png": "/static/media/hackatona_2019.6b7e8ed0.png",
   "static/media/redux-thunk.png": "/static/media/redux-thunk.ca1b3d0b.png",
   "static/media/index.css": "/static/media/background.27047321.JPG",
-  "static/css/main.596f9b41.chunk.css.map": "/static/css/main.596f9b41.chunk.css.map",
+  "static/css/main.bd0fb1b0.chunk.css.map": "/static/css/main.bd0fb1b0.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.f33b4da66f7a7aa099c73737f8a80943.js": "/precache-manifest.f33b4da66f7a7aa099c73737f8a80943.js",
+  "precache-manifest.1ae39e3d40ccc7eec61a782e50f19b9c.js": "/precache-manifest.1ae39e3d40ccc7eec61a782e50f19b9c.js",
   "service-worker.js": "/service-worker.js"
 }
