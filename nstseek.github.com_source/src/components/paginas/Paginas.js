@@ -21,7 +21,7 @@ class Paginas extends React.Component {
                 </div>
                 <div id='paginasContent'>
                     <br />
-                    <p>
+                    <div className="container">
                         <h5>Páginas principais (mais elaboradas)</h5>
                         <div className='scrollView'>
                             <a
@@ -141,7 +141,7 @@ class Paginas extends React.Component {
                                 </div>
                             </a>
                         </div>
-                    </p>
+                    </div>
                 </div>
             </div>
         );

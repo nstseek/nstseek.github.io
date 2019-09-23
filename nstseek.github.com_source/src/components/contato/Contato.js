@@ -24,8 +24,13 @@ class Contato extends React.Component {
                 </div>
                 <div id='contatoContent'>
                     <h3 className='contato'>Aqui estão algumas formas de me contatar e me conhecer melhor</h3>
-                    <a target='_blank' rel='noopener noreferrer' href='https://facebook.com/rafael.scd/'>
-                        <div className='cardContainer'>
+                    <a
+                        className='linkContato'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://facebook.com/rafael.scd/'
+                    >
+                        <div className='cardContainerContato'>
                             <img src={face} alt='Facebook' className='siteImg' />
                             <span>
                                 <img src={faceicon} alt='Facebook icon' />
@@ -33,8 +38,13 @@ class Contato extends React.Component {
                             </span>
                         </div>
                     </a>
-                    <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/nstseek/'>
-                        <div className='cardContainer'>
+                    <a
+                        className='linkContato'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://www.instagram.com/nstseek/'
+                    >
+                        <div className='cardContainerContato'>
                             <img src={insta} alt='Instagram' className='siteImg' />
                             <span>
                                 <img src={instaicon} alt='Instagram icon' />
@@ -46,8 +56,9 @@ class Contato extends React.Component {
                         target='_blank'
                         rel='noopener noreferrer'
                         href='mailto:rafael.rls70@gmail.com?Subject=Contato%20via%20site'
+                        className='linkContato'
                     >
-                        <div className='cardContainer'>
+                        <div className='cardContainerContato'>
                             <img src={gmail} alt='Email' className='siteImg' />
                             <span>
                                 <img src={gmailicon} alt='Gmail icon' />
@@ -60,8 +71,9 @@ class Contato extends React.Component {
                         target='_blank'
                         rel='noopener noreferrer'
                         href='https://www.linkedin.com/in/rafael-lopes-schneider-139152165/'
+                        className='linkContato'
                     >
-                        <div className='cardContainer'>
+                        <div className='cardContainerContato'>
                             <img src={linkedin} alt='LinkedIn' className='siteImg' />
                             <span>
                                 <img src={linkedinicon} alt='LinkedIn icon' />
@@ -69,8 +81,13 @@ class Contato extends React.Component {
                             </span>
                         </div>
                     </a>
-                    <a target='_blank' rel='noopener noreferrer' href='http://lattes.cnpq.br/8432696370015594'>
-                        <div className='cardContainer'>
+                    <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='http://lattes.cnpq.br/8432696370015594'
+                        className='linkContato'
+                    >
+                        <div className='cardContainerContato'>
                             <img src={lattes} alt='Lattes' className='siteImg' />
                             <span>
                                 <img src={lattesicon} alt='Lattes icon' />
@@ -79,8 +96,13 @@ class Contato extends React.Component {
                         </div>
                     </a>
 
-                    <a target='_blank' rel='noopener noreferrer' href='https://github.com/nstseek'>
-                        <div className='cardContainer'>
+                    <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://github.com/nstseek'
+                        className='linkContato'
+                    >
+                        <div className='cardContainerContato'>
                             <img src={git} alt='GitHub' className='siteImg' />
                             <span>
                                 <img src={giticon} alt='GitHub icon' />
@@ -92,8 +114,9 @@ class Contato extends React.Component {
                         target='_blank'
                         rel='noopener noreferrer'
                         href='https://stackexchange.com/users/13971300/rafael-lopes-schneider'
+                        className='linkContato'
                     >
-                        <div className='cardContainer'>
+                        <div className='cardContainerContato'>
                             <img src={stack} alt='Stack Exchange' className='siteImg' />
                             <span>
                                 <img src={stackicon} alt='Stack Exchange icon' />
