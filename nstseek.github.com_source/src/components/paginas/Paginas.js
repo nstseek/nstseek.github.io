@@ -47,21 +47,21 @@ class Paginas extends React.Component {
                             <a
                                 target='_blank'
                                 rel='noopener noreferrer'
-                                href='https://nstseek.github.io/Pages/robofriends/'
-                            >
-                                <div className='cardContainer'>
-                                    <img src={Robofriends} alt='Robofriends' className='siteImg' />
-                                    <span>Robofriends</span>
-                                </div>
-                            </a>
-                            <a
-                                target='_blank'
-                                rel='noopener noreferrer'
                                 href='https://nstseek.github.io/Pages/smartbrain/'
                             >
                                 <div className='cardContainer'>
                                     <img src={Smartbrain} alt='Smartbrain' className='siteImg' />
                                     <span>Smartbrain</span>
+                                </div>
+                            </a>
+                            <a
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                href='https://nstseek.github.io/Pages/robofriends/'
+                            >
+                                <div className='cardContainer'>
+                                    <img src={Robofriends} alt='Robofriends' className='siteImg' />
+                                    <span>Robofriends</span>
                                 </div>
                             </a>
                             <a
