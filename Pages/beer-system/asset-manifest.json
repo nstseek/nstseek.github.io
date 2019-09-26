@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pages/beer-system/static/css/main.5b76d144.chunk.css",
+    "main.js": "/Pages/beer-system/static/js/main.36c6277b.chunk.js",
+    "main.js.map": "/Pages/beer-system/static/js/main.36c6277b.chunk.js.map",
+    "runtime-main.js": "/Pages/beer-system/static/js/runtime-main.c6b7151b.js",
+    "runtime-main.js.map": "/Pages/beer-system/static/js/runtime-main.c6b7151b.js.map",
+    "static/js/2.21439340.chunk.js": "/Pages/beer-system/static/js/2.21439340.chunk.js",
+    "static/js/2.21439340.chunk.js.map": "/Pages/beer-system/static/js/2.21439340.chunk.js.map",
+    "index.html": "/Pages/beer-system/index.html",
+    "precache-manifest.e4e8f509be894f7f0a36987bffcdf2b0.js": "/Pages/beer-system/precache-manifest.e4e8f509be894f7f0a36987bffcdf2b0.js",
+    "service-worker.js": "/Pages/beer-system/service-worker.js",
+    "static/css/main.5b76d144.chunk.css.map": "/Pages/beer-system/static/css/main.5b76d144.chunk.css.map"
+  }
+}

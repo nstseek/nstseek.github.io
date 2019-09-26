@@ -10,6 +10,7 @@ import Jsinputtest from '../../img/jsinputtest.png';
 import Jsprompttest from '../../img/jsprompttest.png';
 import Hackatona2019PUCRS from '../../img/hackatona_2019.png';
 import ReduxThunk from '../../img/redux-thunk.png';
+import BeerSystem from '../../img/beersystem.png';
 import './Paginas.css';
 
 class Paginas extends React.Component {
@@ -21,9 +22,19 @@ class Paginas extends React.Component {
                 </div>
                 <div id='paginasContent'>
                     <br />
-                    <div className="container">
+                    <div className='container'>
                         <h5>Páginas principais (mais elaboradas)</h5>
                         <div className='scrollView'>
+                            <a
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                href='https://nstseek.github.io/Pages/beer-system/'
+                            >
+                                <div className='cardContainer'>
+                                    <img src={BeerSystem} alt='Beer temperature control system' className='siteImg' />
+                                    <span>Beer temperature control</span>
+                                </div>
+                            </a>
                             <a
                                 target='_blank'
                                 rel='noopener noreferrer'
