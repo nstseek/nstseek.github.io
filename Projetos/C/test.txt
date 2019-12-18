@@ -1,5 +1,0 @@
-<td class="carSpec"><b>2007</b> (Past Model)</td>
-<td class="carSpec">Volkswagen</td>
-<td class="carSpec">Eos</td>
-<td class="carSpec">Hardtop</td>
-<td class="carSpec">$28.110</td>

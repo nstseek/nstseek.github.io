@@ -1,2 +1,0 @@
-alias atom=/home/18203013/atom-1.30.0-amd64/atom
-alias swiftc=/home/18203013/swift-4.1.3-RELEASE-ubuntu16.10/usr/bin/swiftc
